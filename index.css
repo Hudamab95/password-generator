@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    background: #ECFDF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+.container { 
+    background: #273549;
+    padding: 80px 40px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: #ECFDF5;
+    margin-bottom: 0
+}
+
+.container h1 span {
+    display: block;
+    color: #10B981;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container p {
+    margin-top: 5px;
+    color: #D5D4D8; 
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#generate {
+    background: #10B981;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    border: none;
+}
+
+#another {
+    background: #D5D4D8; ;
+    color: blsck;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 10px;
+    padding: 5px 10px;
+    font-weight: lighter;
+    border: none;
+    margin-left: 10px;
+}
+
+.invisible {
+    display: none;
+}
+
+.horizontal_line {
+    margin-top: 30px;
+    border-top: 1px solid #2F3E53;;
+ }
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#password-one{
+    margin-right: 10px;
+}
+
+#password-two {
+    margin-left: 10px;
+}
+
+#password-one, #password-two {
+    color: #55F991;
+    background: #2F3E53;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 35px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-weight: lighter;
+    border: none;
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+    min-height: 20px;
+}
